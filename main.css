@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 5.31rem;
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container_header {
+    max-width: 60.375rem;
+    height: 100%;
+
+    margin: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_header span {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.banner {
+    background: #f5f5f5;
+    align-items: center;
+}
+
+.container_banner {
+    max-width: 60.375rem;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4.38rem;
+    padding-bottom: 4.62rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_banner span {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title_container_banner h1 {
+    font-size: 3.75rem;
+}
+
+.title_coffee {
+    font-size: 3.75rem;
+    font-weight: 800;
+}
+
+.subtitle {
+    margin-top: 1.19rem;
+}
+
+.subtitle span {
+    font-size: 1.875rem;
+    color: #4A5568;
+}
+
+.first_rectangle {
+    margin-top: 2rem;
+}
+
+.rectangle {
+    margin: 0 auto;
+    width: 60.375rem;
+    height: 15.1875rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    box-shadow: 0px 5px 4px 0px rgba(6, 10, 230, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3.27rem;
+    padding-top: 1.69rem;
+}
+
+.title_established {
+    width: 15.39219rem;
+    color: var(--800, #2D3748);
+    font-family: Inter;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.paragraph {
+    width: 25.19288rem;
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 1.69rem;
+}
+
+.extra_content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.date_text{
+    width: 5.77994rem;
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.read_more {
+    width: 3.958rem;
+    color: var(--800, #2D3748);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rectangles_container {
+    display: flex;
+    margin: auto;
+    margin-left: auto;
+    margin-top: 2.69rem;
+    padding-right: 5rem;
+    justify-content: space-around;
+}
+
+.small_rectangles {
+    padding-right: 5rem;
+    padding-left: 5rem;
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-around;
+}
+
+.list_card_one {
+
+    margin-left: 5.81rem;
+    width: 18.75rem;
+    height: 23.875rem;
+    flex-shrink: 0;
+
+    border-radius: 0.3125rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(192, 189, 189, 0.25);
+    
+}
+
+.image_computer {
+    width: 18.5625rem;
+    height: 11.1875rem;
+    flex-shrink: 0;
+    display: flex;
+    padding-bottom: 1.12rem;
+}
+
+.title_one {
+    width: 15.3125rem;
+    color: var(--800, #2D3748);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.paragraph_card_one {
+    
+    height: 5.13rem;
+    width: 16.125rem;
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1.06rem;
+    margin-right: 1.56rem;
+    padding-top: 1rem;
+    padding-bottom: 1.38rem;
+
+}
+
+.extra_content_card_one{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.date_card_one {
+    height: 1rem;
+    width: 5.77994rem;
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.read_card_one {
+    width: 3.958rem;
+    color: var(--800, #2D3748);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.list_card_two {
+    margin-left: 5.81rem;
+    width: 18.75rem;
+    height: 23.875rem;
+    flex-shrink: 0;
+
+    border-radius: 0.3125rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(192, 189, 189, 0.25);
+}
+
+.image_meeting {
+    width: 18.5625rem;
+    height: 11.1875rem;
+    flex-shrink: 0;
+    display: flex;
+    padding-bottom: 1.12rem;
+}
+
+.title_two {
+    width: 15.3125rem;
+    color: var(--800, #2D3748);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.paragraph_card_two {
+    
+    height: 5.13rem;
+    width: 16.125rem;
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1.06rem;
+    margin-right: 1.56rem;
+    padding-top: 1rem;
+    padding-bottom: 1.38rem;
+
+}
+
+.extra_content_card_two {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.date_card_two {
+    height: 1rem;
+    width: 5.77994rem;
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.read_card_two {
+    width: 3.958rem;
+    color: var(--800, #2D3748);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.list_card_three {
+
+    margin-left: 5.81rem;
+    width: 18.75rem;
+    height: 23.875rem;
+    flex-shrink: 0;
+
+    border-radius: 0.3125rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(192, 189, 189, 0.25);
+
+}
+
+.image_coffeecomputer {
+    width: 18.5625rem;
+    height: 11.1875rem;
+    flex-shrink: 0;
+    display: flex;
+    padding-bottom: 1.12rem;
+}
+
+.title_three {
+    width: 15.3125rem;
+    color: var(--800, #2D3748);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.paragraph_card_three {
+    
+    height: 5.13rem;
+    width: 16.125rem;
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1.06rem;
+    margin-right: 1.56rem;
+    padding-top: 1rem;
+    padding-bottom: 1.38rem;
+
+}
+
+.extra_content_card_three {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.date_card_three {
+    height: 1rem;
+    width: 5.77994rem;
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.read_card_three {
+    width: 3.958rem;
+    color: var(--800, #2D3748);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.highlight_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.7rem;   
+}
+
+.highlight_rec {
+    display: flex;
+    width: 60.3125rem;
+    height: 31.25rem;
+    flex-shrink: 0;
+    background: var(--100, #F7FAFC);
+}
+
+.highlight_image {
+    display: flex;
+    justify-content: center;
+    width: 32.8125rem;
+    height: 31.25rem;
+    flex-shrink: 0;
+   
+}
+
+.high_title {
+    display: flex;
+    font-weight: 700;
+    margin-left: 3.94rem;
+    margin-top: 6.13rem;
+    width: 19.25rem;
+    height: 6rem;
+}
+
+.highlight_title header {
+    display: flex;
+    color: #000;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+.p_high {
+    display: flex;
+    width: 19.43rem;
+    height: 7.12rem;
+    margin-left: 3.94rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.94rem;
+}
+
+.paragraph_highlight {
+    display: flex;
+    width: 19.4375rem;
+    color: var(--600, #718096);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.high_extra_cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width: 500px) {
+    .header_icon {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .banner_image {
+        display: none;
+    }
+
+    .title_container_banner {
+        text-align: center;
+    }
+}
